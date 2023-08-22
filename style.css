@@ -1,0 +1,30 @@
+ul {list-style-type: none;}
+
+
+  .lessons {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;}
+        
+
+  li:nth-child(even) {
+     background-color: #f3ffb6;}
+  li:nth-child(odd) {
+     background-color: #87eb9d; }
+  li:nth-child(2) {
+     background-color: #00ced1;}
+  li:last-child {
+     background-color: #eec1b0; }
+  li:first-child {
+     background-color: #ec7ee3; }
+
+
+.lst li:hover { background-color: #71a0f0;} 
+.lst li:active {background-color: rgb(74, 29, 29);}
+.lst li:focus {outline: 2px solid #854545;}
+.lst li:checked {text-decoration: line-through;}
+.lst li:visited { color: purple;}
+
+
+
+
